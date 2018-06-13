@@ -2,7 +2,7 @@
   
   <form #login="ngForm" (ngSubmit)="onLogin()" class="my-form">
     <p>Please enter your login details to continue</p>
-    
+
     <mat-form-field class="my-input">
       <input matInput type="text" name="username" [(ngModel)]="Username" placeholder="Username">
     </mat-form-field>    
@@ -11,6 +11,10 @@
     </mat-form-field>
 
     <button mat-raised-button type="submit" color="primary" class="my-button">Log in</button>
+
+    <div>
+      <small>I don't have an account and woul like to create one</small>
+    </div>
   </form>
 
   <p>{{Username}} {{Password}}</p>

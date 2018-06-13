@@ -8,6 +8,7 @@ import { MatInputModule, MatCheckboxModule, MatFormFieldModule, MatRadioModule, 
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
+import { AppRoutingModule } from './_routes/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LoginComponent } from './pages/login/login.component';
     MatCheckboxModule,
     MatFormFieldModule,
     MatRadioModule,
-    MatButtonModule
+    MatButtonModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
