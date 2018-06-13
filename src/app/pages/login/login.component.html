@@ -1,3 +1,17 @@
-<p>
-  login works!
-</p>
+<div fxLayout="row" fxLayout.xs="column" class="login">
+  
+  <form #login="ngForm" (ngSubmit)="onLogin()" class="my-form">
+    <p>Please enter your login details to continue</p>
+    
+    <mat-form-field class="my-input">
+      <input matInput type="text" name="username" [(ngModel)]="Username" placeholder="Username">
+    </mat-form-field>    
+    <mat-form-field class="my-input">
+        <input matInput type="password" name="password" [(ngModel)]="Password" placeholder="Password">
+    </mat-form-field>
+
+    <button mat-raised-button type="submit" color="primary" class="my-button">Log in</button>
+  </form>
+
+  <p>{{Username}} {{Password}}</p>
+</div>
