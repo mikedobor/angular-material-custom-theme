@@ -27,3 +27,8 @@ p {
     display: block;
     margin-bottom: 5%;
 }
+
+small a {
+    text-decoration-line: none;
+    color: #444444;
+}
