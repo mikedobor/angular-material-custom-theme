@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularMaterialCustomTheme
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular-material-custom-theme
+>>>>>>> 1b0cb0fbb9dc0dc5e71b3ccbc881dac0e3ddcd4e
